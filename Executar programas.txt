@@ -1,0 +1,9 @@
+Para execução do programa sem testes:
+
+gcc -o 'nome_do_executável' trabalho.c funcoes.c
+./'nome_do_executável'
+
+Para a execução do programa COM testes:
+
+gcc -o 'nome_do_executável' trabalho.c funcoes.c testes.c -lcunit
+./'nome_do_executável'
